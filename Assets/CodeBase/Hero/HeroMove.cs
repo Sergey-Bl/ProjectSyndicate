@@ -1,5 +1,4 @@
-using System;
-using CodeBase.CamerLogic;
+using CodeBase.CameraLogic;
 using CodeBase.Infastructure;
 using CodeBase.Services.Input;
 using UnityEngine;
@@ -41,6 +40,6 @@ namespace CodeBase.Hero
         }
 
         private void CameraFollow() => 
-            _camera.GetComponent<CameraFolow>().Follow(gameObject);
+            _camera.GetComponent<CameraFollow>().Follow(gameObject);
     }
 }

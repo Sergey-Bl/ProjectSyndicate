@@ -1,9 +1,8 @@
-using System;
 using UnityEngine;
 
-namespace CodeBase.CamerLogic
+namespace CodeBase.CameraLogic
 {
-    public class CameraFolow : MonoBehaviour
+    public class CameraFollow : MonoBehaviour
     {
         public float RotationAndeX;
         public float Distance;
