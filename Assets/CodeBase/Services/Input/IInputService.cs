@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace CodeBase.Services.Input
 {
-    public interface IinputService
+    public interface IInputService
     {
         Vector2 Axis { get; }
 
